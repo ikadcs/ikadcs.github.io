@@ -1,2 +1,3 @@
-# ikadcs.github.io
-IKA DCS 
+# Website IKA DCS BINUS
+
+Website resmi alumni DCS BINUS University.
