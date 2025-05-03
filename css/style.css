@@ -33,9 +33,9 @@ main {
     font-weight: bold;
 }
 .box {
-    border-radius: 12px;
+    border-radius: 8px;
     width: 250px;
-    height: 25px;
+    height: 20px;
 }
 nav a {
     color: white;
