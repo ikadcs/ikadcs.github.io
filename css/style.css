@@ -33,10 +33,20 @@ main {
     font-weight: bold;
 }
 .box {
-    border-radius: 8px;
-    width: 250px;
-    height: 20px;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  min-width: 150px;
+  max-width: 300px; /* Tambahan ini penting */
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  word-wrap: break-word;   /* Tambahan agar teks panjang turun baris */
+  white-space: normal;     /* Supaya teks bisa wrapping */
+  vertical-align: top;     /* Supaya box sejajar walau tingginya beda */
 }
+
 nav a {
     color: white;
     margin: 0 10px;
