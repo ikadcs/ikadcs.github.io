@@ -35,17 +35,19 @@ main {
 .box {
   display: inline-block;
   border-radius: 12px;
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem;     /* Lebih kecil dari sebelumnya */
   margin-right: 1rem;
   min-width: 150px;
-  max-width: 300px; /* Tambahan ini penting */
-  font-size: 0.8rem;
+  max-width: 300px;
+  font-size: 0.75rem;         /* Sedikit dikecilkan */
+  line-height: 1.1;           /* Supaya lebih padat */
   text-align: center;
   color: white;
-  word-wrap: break-word;   /* Tambahan agar teks panjang turun baris */
-  white-space: normal;     /* Supaya teks bisa wrapping */
-  vertical-align: top;     /* Supaya box sejajar walau tingginya beda */
+  word-wrap: break-word;
+  white-space: normal;
+  vertical-align: top;
 }
+
 
 nav a {
     color: white;
