@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
@@ -5,23 +6,19 @@ body {
     background-color: #f9f9f9;
     color: #222;
 }
-
 header {
     background-color: #111;
     color: white;
     padding: 20px;
     text-align: center;
 }
-
 .logo {
     height: 120px;
 }
-
 main {
     padding: 40px;
     text-align: center;
 }
-
 .circle, .box {
     border-radius: 50%;
     background-color: #003366;
@@ -35,62 +32,31 @@ main {
     align-items: center;
     font-weight: bold;
 }
-
-/* BOX UNTUK MARQUEE */
 .box {
-    display: inline-block;
-    border-radius: 12px;
-    padding: 0.2rem 0.5rem;
-    margin-right: 1rem;
-    min-width: 150px;
-    max-width: 300px;
-    font-size: 0.75rem;
-    line-height: 1.1;
-    text-align: center;
-    color: white;
-    word-wrap: break-word;
-    white-space: normal;
-    vertical-align: top;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.2rem 0.5rem;     /* Lebih kecil dari sebelumnya */
+  margin-right: 1rem;
+  min-width: 150px;
+  max-width: 300px;
+  font-size: 0.75rem;         /* Sedikit dikecilkan */
+  line-height: 1.1;           /* Supaya lebih padat */
+  text-align: center;
+  color: white;
+  word-wrap: break-word;
+  white-space: normal;
+  vertical-align: top;
 }
 
-/* MARQUEE SETTINGS */
-.row {
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 1rem 0;
-}
 
-.marquee {
-    display: inline-block;
-    animation: marquee 60s linear infinite;
-}
-
-.marquee.reverse {
-    animation: marqueeReverse 60s linear infinite;
-}
-
-/* ANIMASI MULAI DARI TENGAH */
-@keyframes marquee {
-    0% { transform: translateX(50%); }
-    100% { transform: translateX(-50%); }
-}
-
-@keyframes marqueeReverse {
-    0% { transform: translateX(-50%); }
-    100% { transform: translateX(50%); }
-}
-
-/* NAVIGATION */
 nav a {
     color: white;
     margin: 0 10px;
     text-decoration: none;
 }
-
 nav a:hover {
     text-decoration: underline;
 }
-
 .structure-link {
     display: block;
     margin-top: 40px;
